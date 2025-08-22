@@ -56,15 +56,15 @@ def missingNumInSeq(values):
          
 print(missingNumInSeq([1,2,3,4,5,6,7,9]))        
 
-# # 7. Palindrome Checker
-# def palindromeChecker(numberList):
-#       last = len(numberList) - 1
-#       for i in range(len(numberList) // 2):
-#         if numberList[i] != numberList[last - i]:
-#             return False
-#       return True
+# 7. Palindrome Checker
+def palindromeChecker(numberList):
+      last = len(numberList) - 1
+      for i in range(len(numberList) // 2):
+        if numberList[i] != numberList[last - i]:
+            return False
+      return True
 
-# print(palindromeChecker([4,3,4,3,4]))
+print(palindromeChecker([4,3,4,3,4]))
 
 # # 8. Count Digits Without String Conversion
 # # def countDigitsWithoutConv():
