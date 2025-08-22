@@ -31,18 +31,18 @@ def listCompression(values):
 
 print(listCompression([2,3,4,5,6]))
 
-# # 4. Collatz Conjecture
-# def collatConjecture(n):
-#     steps = 0
-#     while n != 1:
-#         if n % 2 == 0:
-#             n //= 2
-#         else:
-#             n = 3 * n + 1
-#         steps += 1
-#     return steps
+# 4. Collatz Conjecture
+def collatConjecture(n):
+    steps = 0
+    while n != 1:
+        if n % 2 == 0:
+            n //= 2
+        else:
+            n = 3 * n + 1
+        steps += 1
+    return steps
 
-# print(collatConjecture(6))
+print(collatConjecture(6))
 
 # # 5. Second Largest
 # #   def secondLargest(values):
