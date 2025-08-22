@@ -35,7 +35,7 @@ print(mutiline.title())
 print(mutiline.replace("good", "ok"))
 
 print(len(mutiline))
-# mutiline += '              '
+mutiline += '              '
 # print(len(mutiline))
 # print(len(mutiline.strip()))
 # print(len(mutiline.lstrip()))
