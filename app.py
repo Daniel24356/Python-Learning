@@ -1,5 +1,5 @@
 weight = int(input("Weight:"))
-# # unit = input("(K)g or (L)bs:")
+unit = input("(K)g or (L)bs:")
 
 # # if unit.upper() == 'L':
 # #     convert = weight / 0.46
