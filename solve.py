@@ -58,16 +58,16 @@ def reverseSentence(str):
 
 print(reverseSentence("I love Python"))
 
-# def removeDuplicates(lists):
-#     i = 0
-#     while i < len(lists) - 1:
-#         if lists[i] == lists[i+1]:
-#             lists.pop(i)
-#         else:
-#             i += 1
-#     return lists
+def removeDuplicates(lists):
+    i = 0
+    while i < len(lists) - 1:
+        if lists[i] == lists[i+1]:
+            lists.pop(i)
+        else:
+            i += 1
+    return lists
 
-# print(removeDuplicates([1, 2, 4, 3, 2, 4, 5]))
+print(removeDuplicates([1, 2, 4, 3, 2, 4, 5]))
 
 
 
