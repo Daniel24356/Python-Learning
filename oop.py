@@ -14,7 +14,7 @@ class Person():
     def __str__(self):
         return f"Fullname: {self.firstName} {self.lastName}"
 
-# p1 = Person("Korede", "Zion")
+p1 = Person("Korede", "Zion")
 # print(p1)   # → Fullname: Korede Zion
 
 # class Laptop():
