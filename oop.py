@@ -1,4 +1,4 @@
-# class Info():
+class Info():
 #     greet = "How you doin'?"
 #     num = 500
 
