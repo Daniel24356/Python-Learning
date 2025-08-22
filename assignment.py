@@ -76,10 +76,10 @@ def uniqueElementsOnly(values):
 print(uniqueElementsOnly(["1","2","3","4","5","5","5"]))
 
 
-# # 10. Maximum Difference
-# def maximumDiff(values):
-#     sorted_list = sorted(values)
-#     return sorted_list[-1] - sorted_list[0]
+# 10. Maximum Difference
+def maximumDiff(values):
+    sorted_list = sorted(values)
+    return sorted_list[-1] - sorted_list[0]
     
-# maximumDiff([2,4,5,6,8,9])
+maximumDiff([2,4,5,6,8,9])
 
