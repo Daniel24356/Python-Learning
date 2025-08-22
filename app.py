@@ -32,7 +32,7 @@ print(first.upper())
 print(first)
 
 print(mutiline.title())
-# print(mutiline.replace("good", "ok"))
+print(mutiline.replace("good", "ok"))
 
 # print(len(mutiline))
 # mutiline += '              '
