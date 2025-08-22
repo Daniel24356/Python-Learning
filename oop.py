@@ -1,6 +1,6 @@
 class Info():
     greet = "How you doin'?"
-#     num = 500
+    num = 500
 
 # info1 = Info()
 # print(info1.num)
