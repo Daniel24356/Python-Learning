@@ -109,10 +109,10 @@ print(longestWordInString("The quick brown fox jumps over the lazy dog"))
 from typing import Counter
 
 
-# def countCharFreq(s):
-#     return dict(Counter(s))
+def countCharFreq(s):
+    return dict(Counter(s))
 
-# print(countCharFreq("banana"))
+print(countCharFreq("banana"))
 
 # def longestWordInString(sentence):
 #     words = sentence.split()
