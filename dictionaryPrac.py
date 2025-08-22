@@ -31,10 +31,10 @@ def groupWordsByFirstLetter(lists):
 
 print(groupWordsByFirstLetter(["apple", "ant", "banana", "ball", "cat"]))
 
-# def invertDic(d):
-#     return {v: k for k, v in d.items()}
+def invertDic(d):
+    return {v: k for k, v in d.items()}
 
-# print(invertDic({1: 'a', 2: 'b', 3: 'c'}))
+print(invertDic({1: 'a', 2: 'b', 3: 'c'}))
 
 # def countCharFreq(lists):
 #     count = 0
