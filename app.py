@@ -5,7 +5,7 @@ if unit.upper() == 'L':
     convert = weight / 0.46
     print("Weight in kg:" + str(convert))
 else:
-# #     convert = weight * 0.46
+    convert = weight * 0.46
 # #     print("Weight in lbs:" + str(convert))
 
 # # numbers = [1,2,3,4,5]
