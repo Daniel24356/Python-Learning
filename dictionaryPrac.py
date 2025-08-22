@@ -47,7 +47,7 @@ def countCharFreq(lists):
     return dic          
 
         
-# print(countCharFreq(["cat", "dog", "cow"]))   
+print(countCharFreq(["cat", "dog", "cow"]))   
 
 
 # def mergeTwoDict(a, b):
