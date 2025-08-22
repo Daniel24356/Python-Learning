@@ -8,7 +8,7 @@ def countWordFreq(str):
         dic[list] += 1
     return dic 
 
-# print(countWordFreq("I love Python and I love coding"))
+print(countWordFreq("I love Python and I love coding"))
 
 # def mostFreqChar(str):
 #     dic = {}
