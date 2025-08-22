@@ -47,14 +47,14 @@ print(collatConjecture(6))
 # 5. Second Largest
 #   def secondLargest(values):
       
-# # 6. Missing Number in Sequence
-# def missingNumInSeq(values):
-#     for i in range(len(values) - 1):  
-#         if values[i+1] - values[i] != 1:
-#             return values[i] + 1
-#     return None 
+# 6. Missing Number in Sequence
+def missingNumInSeq(values):
+    for i in range(len(values) - 1):  
+        if values[i+1] - values[i] != 1:
+            return values[i] + 1
+    return None 
          
-# print(missingNumInSeq([1,2,3,4,5,6,7,9]))        
+print(missingNumInSeq([1,2,3,4,5,6,7,9]))        
 
 # # 7. Palindrome Checker
 # def palindromeChecker(numberList):
