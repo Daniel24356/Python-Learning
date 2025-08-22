@@ -5,7 +5,7 @@ class Info():
 info1 = Info()
 print(info1.num)
 
-# class Person():
+class Person():
 #     def __init__(self, firstName, lastName):
 #         self.firstName = firstName
 #         self.lastName = lastName 
