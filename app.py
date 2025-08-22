@@ -24,7 +24,7 @@ for number in numbers:
 sentence = 'I\'m back at work!\tHey!\n\nWhere\'s this at\\located?'
 print(sentence)
 
-# first = 'first'
+first = 'first'
 # mutiline = 'I am good'
 # print(first)
 # print(first.lower())
