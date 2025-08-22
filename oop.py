@@ -35,6 +35,6 @@ laptop5 = Laptop("Elitebook", "HP", 2017)
 print(laptop1)
 print(laptop2)
 print(laptop3)
-# print(laptop4)
+print(laptop4)
 # print(laptop5)
       
