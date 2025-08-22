@@ -57,7 +57,7 @@ print(first.endswith("t"))
 
 myvalue = True
 x = bool(False)
-# print(type(x))
+print(type(x))
 # print(isinstance(myvalue, bool))
 
 # comp_value = 5+3j
