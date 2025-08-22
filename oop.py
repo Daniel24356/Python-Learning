@@ -21,7 +21,7 @@ class Laptop():
     def __init__(self, model, make, year,):
         self.model = model
         self.make = make
-#         self.year = year
+        self.year = year
 
 #     def __str__(self):
 #         return f"{self.make}, {self.model}, {self.year}"
