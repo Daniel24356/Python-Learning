@@ -11,8 +11,8 @@ class Person():
         self.lastName = lastName 
         
     
-#     def __str__(self):
-#         return f"Fullname: {self.firstName} {self.lastName}"
+    def __str__(self):
+    #     return f"Fullname: {self.firstName} {self.lastName}"
 
 # p1 = Person("Korede", "Zion")
 # print(p1)   # → Fullname: Korede Zion
