@@ -21,15 +21,15 @@ def reverseEngineering(number):
     return reversedNum
 print(reverseEngineering(1234))
 
-# # 3. List Compression
-# def listCompression(values):
-#     result = []
-#     for value in values:
-#         if value % 2 == 0:
-#             result.append(value * 2)
-#     return result
+# 3. List Compression
+def listCompression(values):
+    result = []
+    for value in values:
+        if value % 2 == 0:
+            result.append(value * 2)
+    return result
 
-# print(listCompression([2,3,4,5,6]))
+print(listCompression([2,3,4,5,6]))
 
 # # 4. Collatz Conjecture
 # def collatConjecture(n):
