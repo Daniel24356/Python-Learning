@@ -1,5 +1,5 @@
 class Info():
-#     greet = "How you doin'?"
+    greet = "How you doin'?"
 #     num = 500
 
 # info1 = Info()
