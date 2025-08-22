@@ -29,14 +29,14 @@ def matrix_to_string(lists):
 
 matrix_to_string([['H','i'],['!']])        
 
-# def flatten_list(lists):
-#     array = []
-#     for i in range(len(lists)):
-#         for j in range(len(lists[i])):
-#             array.append(lists[i][j])
-#     return array
+def flatten_list(lists):
+    array = []
+    for i in range(len(lists)):
+        for j in range(len(lists[i])):
+            array.append(lists[i][j])
+    return array
 
-# flatten_list([[1,2],[3,4]])        
+flatten_list([[1,2],[3,4]])        
 
 # def count_zeros(lists):
 #     sum = 0
