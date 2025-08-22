@@ -27,7 +27,7 @@ def exceedFive(values):
           
 
          
-def averageRoute(lists):
-    for i in range()
+# def averageRoute(lists):
+#     for i in range()
 
         
