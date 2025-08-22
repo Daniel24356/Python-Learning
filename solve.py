@@ -114,11 +114,11 @@ def countCharFreq(s):
 
 print(countCharFreq("banana"))
 
-# def longestWordInString(sentence):
-#     words = sentence.split()
-#     return max(words, key=len)
+def longestWordInString(sentence):
+    words = sentence.split()
+    return max(words, key=len)
 
-# print(longestWordInString("I love programming in Python"))
+print(longestWordInString("I love programming in Python"))
 # # Output: programming
 
 # def minimumOutput(lists):
