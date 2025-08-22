@@ -15,7 +15,7 @@ class Person():
         return f"Fullname: {self.firstName} {self.lastName}"
 
 p1 = Person("Korede", "Zion")
-# print(p1)   # → Fullname: Korede Zion
+print(p1)   # → Fullname: Korede Zion
 
 # class Laptop():
 #     def __init__(self, model, make, year,):
