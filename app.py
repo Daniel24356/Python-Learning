@@ -19,7 +19,7 @@ while i < len(numbers):
 
 numbers = range(5, 10, 2)
 for number in numbers:
-# #     print(number)
+    print(number)
 
 # # sentence = 'I\'m back at work!\tHey!\n\nWhere\'s this at\\located?'
 # # print(sentence)
