@@ -8,7 +8,7 @@ else:
     convert = weight * 0.46
     print("Weight in lbs:" + str(convert))
 
-# # numbers = [1,2,3,4,5]
+numbers = [1,2,3,4,5]
 # # for item in numbers:
 # #     print(item)
 
