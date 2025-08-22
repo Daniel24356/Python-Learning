@@ -13,7 +13,7 @@ for item in numbers:
     print(item)
 
 i = 0
-# # while i < len(numbers):
+while i < len(numbers):
 # #     print(numbers[i])
 # #     i = i + 1
 
