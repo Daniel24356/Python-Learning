@@ -73,7 +73,7 @@ print(palindromeChecker([4,3,4,3,4]))
 def uniqueElementsOnly(values):
     return len(values) == len(set(values))
 
-# print(uniqueElementsOnly(["1","2","3","4","5","5","5"]))
+print(uniqueElementsOnly(["1","2","3","4","5","5","5"]))
 
 
 # # 10. Maximum Difference
