@@ -1,13 +1,13 @@
-# def extract_vowels(lists):
-#     array = []
-#     vowels = "aeiouAEIOU"
-#     for i in range(len(lists)):
-#         for j in range(len(lists[i])):
-#             if(lists[i][j] in vowels):
-#                 array.append(lists[i][j])
-#     return array
+def extract_vowels(lists):
+    array = []
+    vowels = "aeiouAEIOU"
+    for i in range(len(lists)):
+        for j in range(len(lists[i])):
+            if(lists[i][j] in vowels):
+                array.append(lists[i][j])
+    return array
 
-# print(extract_vowels(["cat", "apple"]))
+print(extract_vowels(["cat", "apple"]))
 
 # def findAllEvenNumber(lists):
 #     array = []
