@@ -33,24 +33,24 @@ def rankStudentsByAvgScore(dicts):
 
 print(rankStudentsByAvgScore({'Alice':[90,85,88], 'Bob':[90,85,88], 'Charlie':[95,80,85]}))
    
-# #5
-# def assignIdtoUniqWord(sentence):
-#     words = sentence.split()
-#     mapping = {}
-#     encoded = []
-#     current_id = 1
+#5
+def assignIdtoUniqWord(sentence):
+    words = sentence.split()
+    mapping = {}
+    encoded = []
+    current_id = 1
 
-#     for word in words:
-#         if word not in mapping:     
-#             mapping[word] = current_id
-#             current_id += 1
-#         encoded.append(mapping[word])
+    for word in words:
+        if word not in mapping:     
+            mapping[word] = current_id
+            current_id += 1
+        encoded.append(mapping[word])
 
-#     id_to_word = {v: k for k, v in mapping.items()}
-#     return encoded, id_to_word
+    id_to_word = {v: k for k, v in mapping.items()}
+    return encoded, id_to_word
 
 
-# print(assignIdtoUniqWord('the cat sat on the mat'))
+print(assignIdtoUniqWord('the cat sat on the mat'))
 
 # #1
 # #dont understand question
