@@ -36,15 +36,15 @@ def invertDic(d):
 
 print(invertDic({1: 'a', 2: 'b', 3: 'c'}))
 
-# def countCharFreq(lists):
-#     count = 0
-#     dic = {}
-#     for i in lists:
-#         for j in i:
-#             if j not in dic:
-#                 dic[j] = 0
-#             dic[j] += 1  
-#     return dic          
+def countCharFreq(lists):
+    count = 0
+    dic = {}
+    for i in lists:
+        for j in i:
+            if j not in dic:
+                dic[j] = 0
+            dic[j] += 1  
+    return dic          
 
         
 # print(countCharFreq(["cat", "dog", "cow"]))   
