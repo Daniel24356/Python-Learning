@@ -1,4 +1,4 @@
-# import re
+import re
 
 # #3
 # def groupAnagrams(sentences):
