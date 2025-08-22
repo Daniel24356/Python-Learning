@@ -19,7 +19,7 @@ print(p1)   # → Fullname: Korede Zion
 
 class Laptop():
     def __init__(self, model, make, year,):
-#         self.model = model
+        self.model = model
 #         self.make = make
 #         self.year = year
 
