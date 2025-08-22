@@ -91,19 +91,19 @@ def mergeTwoSortedList(list1, list2):
 
 print(mergeTwoSortedList([1, 3, 5],[2, 4, 6]))       
 
-# def longestWordInString(text):
-#     words = text.split(' ')
-#     i = 0
-#     while i < len(words) - 1:  # use while since we might pop
-#         if len(words[i]) < len(words[i + 1]):
-#             words.pop(i)  # remove current if shorter
-#         elif len(words[i]) == len(words[i + 1]):
-#             words.pop(i + 1)  # remove the later one if same length
-#         else:
-#             i += 1  # move forward only if nothing removed
-#     return words[0]  # only one word should remain
+def longestWordInString(text):
+    words = text.split(' ')
+    i = 0
+    while i < len(words) - 1:  # use while since we might pop
+        if len(words[i]) < len(words[i + 1]):
+            words.pop(i)  # remove current if shorter
+        elif len(words[i]) == len(words[i + 1]):
+            words.pop(i + 1)  # remove the later one if same length
+        else:
+            i += 1  # move forward only if nothing removed
+    return words[0]  # only one word should remain
 
-# print(longestWordInString("The quick brown fox jumps over the lazy dog"))
+print(longestWordInString("The quick brown fox jumps over the lazy dog"))
        
 
 # from typing import Counter
