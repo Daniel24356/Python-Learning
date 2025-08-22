@@ -22,7 +22,7 @@ for number in numbers:
     print(number)
 
 sentence = 'I\'m back at work!\tHey!\n\nWhere\'s this at\\located?'
-# # print(sentence)
+print(sentence)
 
 # first = 'first'
 # mutiline = 'I am good'
