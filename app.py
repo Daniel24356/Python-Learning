@@ -28,7 +28,7 @@ first = 'first'
 mutiline = 'I am good'
 print(first)
 print(first.lower())
-# print(first.upper())
+print(first.upper())
 # print(first)
 
 # print(mutiline.title())
