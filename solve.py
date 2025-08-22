@@ -121,12 +121,12 @@ def longestWordInString(sentence):
 print(longestWordInString("I love programming in Python"))
 # # Output: programming
 
-# def minimumOutput(lists):
-#     min_value = min(lists)
-#     day = lists.index(min_value)
-#     return f"Lowest yield: {min_value} bag on day {day}"
+def minimumOutput(lists):
+    min_value = min(lists)
+    day = lists.index(min_value)
+    return f"Lowest yield: {min_value} bag on day {day}"
 
-# print(minimumOutput([45, 60, 38, 55, 70, 42, 39, 48]))    
+print(minimumOutput([45, 60, 38, 55, 70, 42, 39, 48]))    
 
 
 
