@@ -38,7 +38,7 @@ print(len(mutiline))
 mutiline += '              '
 print(len(mutiline))
 print(len(mutiline.strip()))
-# print(len(mutiline.lstrip()))
+print(len(mutiline.lstrip()))
 # print(len(mutiline.rstrip()))
 
 # title = "menu".upper()
