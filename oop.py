@@ -3,7 +3,7 @@ class Info():
     num = 500
 
 info1 = Info()
-# print(info1.num)
+print(info1.num)
 
 # class Person():
 #     def __init__(self, firstName, lastName):
