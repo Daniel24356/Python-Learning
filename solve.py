@@ -38,15 +38,15 @@ def flatten_list(lists):
 
 flatten_list([[1,2],[3,4]])        
 
-# def count_zeros(lists):
-#     sum = 0
-#     for i in range(len(lists)):
-#         for j in range(len(lists[i])):
-#             if lists[i][j] == 0:
-#                 sum = sum + 1
-#     return sum   
+def count_zeros(lists):
+    sum = 0
+    for i in range(len(lists)):
+        for j in range(len(lists[i])):
+            if lists[i][j] == 0:
+                sum = sum + 1
+    return sum   
 
-# count_zeros([[0,1,0],[2,0,3]])           
+count_zeros([[0,1,0],[2,0,3]])           
 
 # def reverseSentence(str):
 #     lists = str.split(' ')
