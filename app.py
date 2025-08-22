@@ -15,7 +15,7 @@ for item in numbers:
 i = 0
 while i < len(numbers):
     print(numbers[i])
-# #     i = i + 1
+    i = i + 1
 
 # # numbers = range(5, 10, 2)
 # # for number in numbers:
