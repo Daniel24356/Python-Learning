@@ -20,14 +20,14 @@ def findAllEvenNumber(lists):
 print(findAllEvenNumber([[1,2,3],[4,5,6]]))
 
 
-# def matrix_to_string(lists):
-#     empty_string = ""
-#     for i in range(len(lists)):
-#         for j in range(len(lists[i])):
-#             empty_string += lists[i][j]           
-#     return empty_string
+def matrix_to_string(lists):
+    empty_string = ""
+    for i in range(len(lists)):
+        for j in range(len(lists[i])):
+            empty_string += lists[i][j]           
+    return empty_string
 
-# matrix_to_string([['H','i'],['!']])        
+matrix_to_string([['H','i'],['!']])        
 
 # def flatten_list(lists):
 #     array = []
