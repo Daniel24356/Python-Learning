@@ -52,7 +52,7 @@ print(first[-1])
 print(first[1:-1])
 print(first[1:])
 
-# print(first.startswith("f"))
+print(first.startswith("f"))
 # print(first.endswith("t"))
 
 # myvalue = True
