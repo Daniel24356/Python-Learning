@@ -49,7 +49,7 @@ print("Cheesecake".ljust(16,".") + '$4'.rjust(4))
 
 print(first[1])
 print(first[-1])
-# print(first[1:-1])
+print(first[1:-1])
 # print(first[1:])
 
 # print(first.startswith("f"))
