@@ -17,12 +17,12 @@ def exceedFive(values):
     return array   
 
 
-def duplicateZero(values):
-     for i in range(len(values)):
+# def duplicateZero(values):
+#      for i in range(len(values)):
     
-         for j in range(len(values[i])):
-             if(values[i][j] and values[i][j+1] == 0):
-                 return values[i]
+#          for j in range(len(values[i])):
+#              if(values[i][j] and values[i][j+1] == 0):
+#                  return values[i]
          
           
 
