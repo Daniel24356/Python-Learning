@@ -10,16 +10,16 @@ def countWordFreq(str):
 
 print(countWordFreq("I love Python and I love coding"))
 
-# def mostFreqChar(str):
-#     dic = {}
-#     # count = 0
-#     for char in str:
-#         if char not in dic:
-#             dic[char] = 0
-#         dic[char] += 1
-#     return max(dic, key=dic.get) # the max is acting as a loop. it loops through the dic and the key gets the max value and it returns the key with that max value
+def mostFreqChar(str):
+    dic = {}
+    # count = 0
+    for char in str:
+        if char not in dic:
+            dic[char] = 0
+        dic[char] += 1
+    return max(dic, key=dic.get) # the max is acting as a loop. it loops through the dic and the key gets the max value and it returns the key with that max value
 
-# print(mostFreqChar("banana"))
+print(mostFreqChar("banana"))
 
 # def groupWordsByFirstLetter(lists):
 #     dic = {}
