@@ -48,15 +48,15 @@ def count_zeros(lists):
 
 count_zeros([[0,1,0],[2,0,3]])           
 
-# def reverseSentence(str):
-#     lists = str.split(' ')
-#     array = []
-#     last = len(lists) - 1
-#     for i in range(len(lists)):
-#         array.append(lists[last-i])
-#     return " ".join(array)    
+def reverseSentence(str):
+    lists = str.split(' ')
+    array = []
+    last = len(lists) - 1
+    for i in range(len(lists)):
+        array.append(lists[last-i])
+    return " ".join(array)    
 
-# print(reverseSentence("I love Python"))
+print(reverseSentence("I love Python"))
 
 # def removeDuplicates(lists):
 #     i = 0
