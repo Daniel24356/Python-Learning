@@ -23,7 +23,7 @@ class Laptop():
         self.make = make
         self.year = year
 
-#     def __str__(self):
+    def __str__(self):
 #         return f"{self.make}, {self.model}, {self.year}"
     
 # laptop1 = Laptop("Victus", "HP", 2025)   
