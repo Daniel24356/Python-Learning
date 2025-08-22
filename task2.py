@@ -20,18 +20,18 @@ def groupAnagrams(sentences):
 print(groupAnagrams(['Listen to me', 'Enlist to me', 'The eyes', 'They see']))
 
 
-# #4
-# def rankStudentsByAvgScore(dicts):
-#     students = []
-#     for name, scores in dicts.items():
-#         avg = sum(scores) / len(scores)
-#         students.append((name, round(avg, 2)))
+#4
+def rankStudentsByAvgScore(dicts):
+    students = []
+    for name, scores in dicts.items():
+        avg = sum(scores) / len(scores)
+        students.append((name, round(avg, 2)))
     
-#     #sort by descending order (-x[1]) and if avg is equal sort name by aplabetical order(x[0])
-#     sorted_students = sorted(students, key=lambda x: (-x[1], x[0]))
-#     return sorted_students
+    #sort by descending order (-x[1]) and if avg is equal sort name by aplabetical order(x[0])
+    sorted_students = sorted(students, key=lambda x: (-x[1], x[0]))
+    return sorted_students
 
-# print(rankStudentsByAvgScore({'Alice':[90,85,88], 'Bob':[90,85,88], 'Charlie':[95,80,85]}))
+print(rankStudentsByAvgScore({'Alice':[90,85,88], 'Bob':[90,85,88], 'Charlie':[95,80,85]}))
    
 # #5
 # def assignIdtoUniqWord(sentence):
