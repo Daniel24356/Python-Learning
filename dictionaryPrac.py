@@ -21,15 +21,15 @@ def mostFreqChar(str):
 
 print(mostFreqChar("banana"))
 
-# def groupWordsByFirstLetter(lists):
-#     dic = {}
-#     for list in lists:
-#         if list[0] not in dic:
-#             dic[list[0]] = []
-#         dic[list[0]].append(list)
-#     return dic
+def groupWordsByFirstLetter(lists):
+    dic = {}
+    for list in lists:
+        if list[0] not in dic:
+            dic[list[0]] = []
+        dic[list[0]].append(list)
+    return dic
 
-# print(groupWordsByFirstLetter(["apple", "ant", "banana", "ball", "cat"]))
+print(groupWordsByFirstLetter(["apple", "ant", "banana", "ball", "cat"]))
 
 # def invertDic(d):
 #     return {v: k for k, v in d.items()}
