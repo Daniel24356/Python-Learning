@@ -28,7 +28,7 @@ class Laptop():
     
 laptop1 = Laptop("Victus", "HP", 2025)   
 laptop2 = Laptop("Probook", "HP", 2022)   
-# laptop3 = Laptop("Omen", "HP", 2014)   
+laptop3 = Laptop("Omen", "HP", 2014)   
 # laptop4 = Laptop("Pavilon", "HP", 2020)   
 # laptop5 = Laptop("Elitebook", "HP", 2017)   
 
