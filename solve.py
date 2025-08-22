@@ -9,15 +9,15 @@ def extract_vowels(lists):
 
 print(extract_vowels(["cat", "apple"]))
 
-# def findAllEvenNumber(lists):
-#     array = []
-#     for i in range(len(lists)):
-#         for j in range(len(lists[i])):
-#             if(lists[i][j] % 2 == 0):
-#                 array.append(lists[i][j])
-#     return array
+def findAllEvenNumber(lists):
+    array = []
+    for i in range(len(lists)):
+        for j in range(len(lists[i])):
+            if(lists[i][j] % 2 == 0):
+                array.append(lists[i][j])
+    return array
 
-# print(findAllEvenNumber([[1,2,3],[4,5,6]]))
+print(findAllEvenNumber([[1,2,3],[4,5,6]]))
 
 
 # def matrix_to_string(lists):
