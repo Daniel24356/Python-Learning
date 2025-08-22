@@ -71,15 +71,15 @@ print(removeDuplicates([1, 2, 4, 3, 2, 4, 5]))
 
 
 
-# def countCharFreq(s):
-#     for i in range(len(s)):
-#         count = 0
-#         for j in range(len(s)):
-#             if s[i] == s[j]:
-#                 count += 1
-#         print(f"{s[i]}: {count}")
+def countCharFreq(s):
+    for i in range(len(s)):
+        count = 0
+        for j in range(len(s)):
+            if s[i] == s[j]:
+                count += 1
+        print(f"{s[i]}: {count}")
 
-# countCharFreq("banana")
+countCharFreq("banana")
 
 # def mergeTwoSortedList(list1, list2):
 #     singleList = list1 + list2
