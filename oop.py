@@ -17,7 +17,7 @@ class Person():
 p1 = Person("Korede", "Zion")
 print(p1)   # → Fullname: Korede Zion
 
-# class Laptop():
+class Laptop():
 #     def __init__(self, model, make, year,):
 #         self.model = model
 #         self.make = make
