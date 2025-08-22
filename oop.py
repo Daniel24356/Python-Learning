@@ -32,7 +32,7 @@ laptop3 = Laptop("Omen", "HP", 2014)
 laptop4 = Laptop("Pavilon", "HP", 2020)   
 laptop5 = Laptop("Elitebook", "HP", 2017)   
 
-# print(laptop1)
+print(laptop1)
 # print(laptop2)
 # print(laptop3)
 # print(laptop4)
