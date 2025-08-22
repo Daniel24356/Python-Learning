@@ -44,8 +44,8 @@ def collatConjecture(n):
 
 print(collatConjecture(6))
 
-# # 5. Second Largest
-# #   def secondLargest(values):
+# 5. Second Largest
+#   def secondLargest(values):
       
 # # 6. Missing Number in Sequence
 # def missingNumInSeq(values):
