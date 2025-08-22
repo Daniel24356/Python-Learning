@@ -11,15 +11,15 @@ def digitClassifier(number):
 
 digitClassifier(9)        
 
-# # 2. Reverse Engineering
-# def reverseEngineering(number):
-#     reversedNum = 0
-#     number = abs(number)
-#     while number > 0:
-#         reversedNum = reversedNum * 10 + number % 10
-#         number //= 10
-#     return reversedNum
-# print(reverseEngineering(1234))
+# 2. Reverse Engineering
+def reverseEngineering(number):
+    reversedNum = 0
+    number = abs(number)
+    while number > 0:
+        reversedNum = reversedNum * 10 + number % 10
+        number //= 10
+    return reversedNum
+print(reverseEngineering(1234))
 
 # # 3. List Compression
 # def listCompression(values):
