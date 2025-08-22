@@ -60,7 +60,7 @@ x = bool(False)
 print(type(x))
 print(isinstance(myvalue, bool))
 
-# comp_value = 5+3j
+comp_value = 5+3j
 # print(type(comp_value))
 # print(comp_value.real)
 # print(comp_value.imag)
