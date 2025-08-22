@@ -69,9 +69,9 @@ print(palindromeChecker([4,3,4,3,4]))
 # 8. Count Digits Without String Conversion
 # def countDigitsWithoutConv():
 
-# # 9. Unique Elements Only
-# def uniqueElementsOnly(values):
-#     return len(values) == len(set(values))
+# 9. Unique Elements Only
+def uniqueElementsOnly(values):
+    return len(values) == len(set(values))
 
 # print(uniqueElementsOnly(["1","2","3","4","5","5","5"]))
 
