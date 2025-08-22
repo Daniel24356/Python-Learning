@@ -3,7 +3,7 @@ unit = input("(K)g or (L)bs:")
 
 if unit.upper() == 'L':
     convert = weight / 0.46
-# #     print("Weight in kg:" + str(convert))
+    print("Weight in kg:" + str(convert))
 # # else:
 # #     convert = weight * 0.46
 # #     print("Weight in lbs:" + str(convert))
