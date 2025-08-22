@@ -55,7 +55,7 @@ print(first[1:])
 print(first.startswith("f"))
 print(first.endswith("t"))
 
-# myvalue = True
+myvalue = True
 # x = bool(False)
 # print(type(x))
 # print(isinstance(myvalue, bool))
