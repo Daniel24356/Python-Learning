@@ -8,13 +8,13 @@ def exceedLimit(litrs):
 
 print(exceedLimit([1200,1800,1500,2000,1750,1400,1650]))
 
-# def exceedFive(values):
-#     sorted_array = sorted(values)
-#     array = []
-#     for value in values:
-#         if(value > 5):
-#             array.append(value)
-#     return array   
+def exceedFive(values):
+    sorted_array = sorted(values)
+    array = []
+    for value in values:
+        if(value > 5):
+            array.append(value)
+    return array   
 
 
 # def duplicateZero(values):
