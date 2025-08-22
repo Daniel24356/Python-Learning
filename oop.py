@@ -36,5 +36,5 @@ print(laptop1)
 print(laptop2)
 print(laptop3)
 print(laptop4)
-# print(laptop5)
+print(laptop5)
       
