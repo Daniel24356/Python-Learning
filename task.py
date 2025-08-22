@@ -1,12 +1,12 @@
-# def exceedLimit(litrs):
-#     sum = 0
-#     for litre in litrs:
-#         sum += litre
-#         if (sum > 10000):
-#             return "Capacity exceeded"
-#     return "Capacity not exceeded"    
+def exceedLimit(litrs):
+    sum = 0
+    for litre in litrs:
+        sum += litre
+        if (sum > 10000):
+            return "Capacity exceeded"
+    return "Capacity not exceeded"    
 
-# print(exceedLimit([1200,1800,1500,2000,1750,1400,1650]))
+print(exceedLimit([1200,1800,1500,2000,1750,1400,1650]))
 
 # def exceedFive(values):
 #     sorted_array = sorted(values)
