@@ -1,12 +1,12 @@
-# def countWordFreq(str):
-#     str_lists = str.lower().split(" ")
-#     # count = 1
-#     dic = {}
-#     for list in str_lists:
-#         if list not in dic:
-#             dic[list] = 0
-#         dic[list] += 1
-#     return dic 
+def countWordFreq(str):
+    str_lists = str.lower().split(" ")
+    # count = 1
+    dic = {}
+    for list in str_lists:
+        if list not in dic:
+            dic[list] = 0
+        dic[list] += 1
+    return dic 
 
 # print(countWordFreq("I love Python and I love coding"))
 
