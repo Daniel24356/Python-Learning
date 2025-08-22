@@ -26,7 +26,7 @@ class Laptop():
     def __str__(self):
         return f"{self.make}, {self.model}, {self.year}"
     
-# laptop1 = Laptop("Victus", "HP", 2025)   
+laptop1 = Laptop("Victus", "HP", 2025)   
 # laptop2 = Laptop("Probook", "HP", 2022)   
 # laptop3 = Laptop("Omen", "HP", 2014)   
 # laptop4 = Laptop("Pavilon", "HP", 2020)   
