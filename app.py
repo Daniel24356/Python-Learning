@@ -29,7 +29,7 @@ mutiline = 'I am good'
 print(first)
 print(first.lower())
 print(first.upper())
-# print(first)
+print(first)
 
 # print(mutiline.title())
 # print(mutiline.replace("good", "ok"))
