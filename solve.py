@@ -81,15 +81,15 @@ def countCharFreq(s):
 
 countCharFreq("banana")
 
-# def mergeTwoSortedList(list1, list2):
-#     singleList = list1 + list2
-#     for i in range(len(singleList) -1):
-#         if(singleList[i] > singleList[i+1]):
-#             singleList[i+1] = singleList[i]
-#             singleList[i] = singleList[i + 1]
-#     return singleList
+def mergeTwoSortedList(list1, list2):
+    singleList = list1 + list2
+    for i in range(len(singleList) -1):
+        if(singleList[i] > singleList[i+1]):
+            singleList[i+1] = singleList[i]
+            singleList[i] = singleList[i + 1]
+    return singleList
 
-# print(mergeTwoSortedList([1, 3, 5],[2, 4, 6]))       
+print(mergeTwoSortedList([1, 3, 5],[2, 4, 6]))       
 
 # def longestWordInString(text):
 #     words = text.split(' ')
