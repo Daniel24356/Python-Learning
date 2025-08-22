@@ -31,7 +31,7 @@ print(first.lower())
 print(first.upper())
 print(first)
 
-# print(mutiline.title())
+print(mutiline.title())
 # print(mutiline.replace("good", "ok"))
 
 # print(len(mutiline))
