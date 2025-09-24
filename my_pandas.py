@@ -41,11 +41,11 @@ print(df.shape)
 name= df["Car_Name"]
 year = df["Year"]
 
-# plt.plot(name, year, marker='o')
-# plt.title("Cars Produced over the Years")
-# plt.ylabel("Year")
-# plt.xlabel("Car Name")
-# plt.show()
+plt.plot(name, year, marker='o')
+plt.title("Cars Produced over the Years")
+plt.ylabel("Year")
+plt.xlabel("Car Name")
+plt.show()
 
 # print(df.isnull().sum())
 # print(df["Age"].fillna(df["Age"].median(),inplace = True))
