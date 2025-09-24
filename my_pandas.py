@@ -7,7 +7,7 @@ data = {
     "City": ["Rivers", "Imo", "Lagos"]
 }
 
-# # df = pd.DataFrame(data)
+df = pd.DataFrame(data)
 # # print(df)
 
 # # school = {
