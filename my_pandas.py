@@ -10,12 +10,12 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 
-# # school = {
-# #     "Name": ["Mike", "David", "Daniel", "Korede", "Stephanie", "Frank"],
-# #     "Study Hours": [5, 3, 8, 2, 7, 4],
-# #     "Sleep Hours": [7, 6, 6, 5, 8, 7],
-# #     "Score": [80, 60, 72, 55, 88, 72]
-# # }
+school = {
+    "Name": ["Mike", "David", "Daniel", "Korede", "Stephanie", "Frank"],
+    "Study Hours": [5, 3, 8, 2, 7, 4],
+    "Sleep Hours": [7, 6, 6, 5, 8, 7],
+    "Score": [80, 60, 72, 55, 88, 72]
+}
 
 # # df = pd.DataFrame(school)
 # # print(df)
