@@ -1,11 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# # data = {
-# #     "Name": ["John", "Korode", "Danile"],
-# #     "Age": [25, 30, 28],
-# #     "City": ["Rivers", "Imo", "Lagos"]
-# # }
+data = {
+    "Name": ["John", "Korode", "Danile"],
+    "Age": [25, 30, 28],
+    "City": ["Rivers", "Imo", "Lagos"]
+}
 
 # # df = pd.DataFrame(data)
 # # print(df)
