@@ -4,11 +4,18 @@
 # #   "year": 2020,
 # #   "automatic_transmission": True
 # # }
-# dic = {'a': 2, 'b': 3}
+dic = {'a': 2, 'b': 3}
+dic2 = {'b':4, 'c':4}
+# dic.update(dic2)
+# print(dic)
+# swapped = {v:k for k,v in dic.items()}
+# print(swapped)
+
+
 # for k,v in dic.items():
 #     print(k)
-# # print(dict(dic))
-# # print(dic.get('a',0))
+# print(dict(dic))
+# print(dic.get('c',0) + 1)
 # # print(car.get("name"))
 # # print(car.get("model"))
 
@@ -60,7 +67,7 @@
 # #     "name": "Prince",
 # #     "gender": "Male"
 # # }
-# # users = {"first": user1, "second": user2, "third": user3}
+# users = {"first": user1, "second": user2, "third": user3}
 # # print(users)
 # # print(users["first"])
-# # print(users["first"]["skills"][-1])
+# print(users["first"]["skills"][-1])

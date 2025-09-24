@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "username": "admin",
+        "password": "admin",
+        "role": "ADMIN"
+    },
+    {
+        "id": 2,
+        "username": "Igwe Daniel",
+        "password": "daniel1590",
+        "role": "CUSTOMER"
+    },
+    {
+        "id": 3,
+        "username": "chisom",
+        "password": "chisom1590",
+        "role": "CUSTOMER"
+    },
+    {
+        "id": 4,
+        "username": "zion",
+        "password": "zion1000",
+        "role": "ADMIN"
+    }
+]
