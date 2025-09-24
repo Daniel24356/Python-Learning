@@ -22,12 +22,12 @@ print(df)
 print(df.info)
 print(df.describe)
 
-# df = pd.read_csv("data.csv")
-# # print(df.head())
-# # print("Data")
-# # print(df.tail())
-# print(df.shape)
-# print(df["City"])
+df = pd.read_csv("data.csv")
+# print(df.head())
+# print("Data")
+# print(df.tail())
+print(df.shape)
+print(df["City"])
 
 
 # df = pd.read_csv("car data.csv")
