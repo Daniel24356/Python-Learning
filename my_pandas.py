@@ -20,7 +20,7 @@ school = {
 df = pd.DataFrame(school)
 print(df)
 print(df.info)
-# # print(df.describe)
+print(df.describe)
 
 # df = pd.read_csv("data.csv")
 # # print(df.head())
