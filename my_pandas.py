@@ -8,7 +8,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
-# # print(df)
+print(df)
 
 # # school = {
 # #     "Name": ["Mike", "David", "Daniel", "Korede", "Stephanie", "Frank"],
