@@ -30,13 +30,13 @@ print(df.shape)
 print(df["City"])
 
 
-# df = pd.read_csv("car data.csv")
-# print(df.info())
-# print(df.describe())
-# print(df.head())
-# print(df["Year"])
-# print(df.tail())
-# print(df.shape)
+df = pd.read_csv("car data.csv")
+print(df.info())
+print(df.describe())
+print(df.head())
+print(df["Year"])
+print(df.tail())
+print(df.shape)
 
 # name= df["Car_Name"]
 # year = df["Year"]
