@@ -18,7 +18,7 @@ school = {
 }
 
 df = pd.DataFrame(school)
-# # print(df)
+print(df)
 # # print(df.info)
 # # print(df.describe)
 
