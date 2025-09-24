@@ -38,8 +38,8 @@ print(df["Year"])
 print(df.tail())
 print(df.shape)
 
-# name= df["Car_Name"]
-# year = df["Year"]
+name= df["Car_Name"]
+year = df["Year"]
 
 # plt.plot(name, year, marker='o')
 # plt.title("Cars Produced over the Years")
