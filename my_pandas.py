@@ -17,7 +17,7 @@ school = {
     "Score": [80, 60, 72, 55, 88, 72]
 }
 
-# # df = pd.DataFrame(school)
+df = pd.DataFrame(school)
 # # print(df)
 # # print(df.info)
 # # print(df.describe)
