@@ -29,7 +29,7 @@ import numpy as np
 # print(arr.shape)
 # print(arr.size)
 
-# print(arr[0,0])
+print(arr[0,0])
 
 print(np.random.rand(1,10))
 
