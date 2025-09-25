@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-days = [1,2,3,4,5]
-sales = [50,60,55,70,65]
+# days = [1,2,3,4,5]
+# sales = [50,60,55,70,65]
 
 # plt.plot(days,sales,marker='o')
 # plt.title("Sales over 5 days")
