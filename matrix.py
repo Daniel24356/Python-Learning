@@ -20,10 +20,10 @@ import numpy as np
 # fruits = np.array(["mango","apple","lemon"])
 # print(fruits.dtype)
 
-# arr = np.array([10,20,30,40,50])
-# newArr = arr.asType('i')
-# print(newArr)
-# print(newArr.dtype)
+arr = np.array([10,20,30,40,50])
+newArr = arr.asType('i')
+print(newArr)
+print(newArr.dtype)
 
 arr = np.array([[1,2], [3,4], [40,30,50]]) # 3 - D
 print(arr.shape)
