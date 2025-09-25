@@ -33,13 +33,13 @@ import numpy as np
 
 # print(np.random.rand(1,10))
 
-# sales = np.array([
-#     [50,30,20],
-#     [60,20,10],
-#     [94,15,60],
-#     [78,88,22],
-#     [36,30,8]
-# ])
+sales = np.array([
+    [50,30,20],
+    [60,20,10],
+    [94,15,60],
+    [78,88,22],
+    [36,30,8]
+])
 
 print("Total sales \n", sales)
 print("Total per product",sales.sum(axis = 1))
