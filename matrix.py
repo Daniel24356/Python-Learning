@@ -1,14 +1,14 @@
 import numpy as np
 
 
-# A = np.array([[1,2], [3,4]]) # 2 - D
-# B = np.array([5,6], [7,8])
-# print(A + B)
-# print(2 * A)
-# print(A.T)
-# print(A.dot(B))
-# print(np.linalg.det(A))
-# print(np.linalg.inv(A))
+A = np.array([[1,2], [3,4]]) # 2 - D
+B = np.array([5,6], [7,8])
+print(A + B)
+print(2 * A)
+print(A.T)
+print(A.dot(B))
+print(np.linalg.det(A))
+print(np.linalg.inv(A))
 
 arr = np.array([1,2,3,4]) #1 - D
 arr = np.array((45)) #0 - D
