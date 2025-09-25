@@ -45,8 +45,8 @@ import numpy as np
 # print("Total per product",sales.sum(axis = 1))
 # print("Average egg per day",sales[::,2].mean())
 
-# days = [1,2,3,4,5]
-# sales = [50,60,55,70,65]
+days = [1,2,3,4,5]
+sales = [50,60,55,70,65]
 
 plt.plot(days,sales,marker='o')
 plt.title("Sales over 5 days")
