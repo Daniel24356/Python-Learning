@@ -31,7 +31,7 @@ import numpy as np
 
 # print(arr[0,0])
 
-# print(np.random.rand(1,10))
+print(np.random.rand(1,10))
 
 sales = np.array([
     [50,30,20],
