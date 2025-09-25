@@ -10,12 +10,12 @@ import numpy as np
 # print(np.linalg.det(A))
 # print(np.linalg.inv(A))
 
-# arr = np.array([1,2,3,4]) #1 - D
-# arr = np.array((45)) #0 - D
-# print(arr)
-# print(arr.ndim)
-# arr = np.array([1,2,3,4], ndmin=6)
-# print(arr.ndim)
+arr = np.array([1,2,3,4]) #1 - D
+arr = np.array((45)) #0 - D
+print(arr)
+print(arr.ndim)
+arr = np.array([1,2,3,4], ndmin=6)
+print(arr.ndim)
 
 fruits = np.array(["mango","apple","lemon"])
 print(fruits.dtype)
