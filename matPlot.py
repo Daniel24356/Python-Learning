@@ -12,7 +12,7 @@ plt.show()
 products = ["Bread","Milk","Eggs"]
 unit_sold = [300,220,180]
 
-plt.bar(products, unit_sold, color=['blue','green','orange'])
+# plt.bar(products, unit_sold, color=['blue','green','orange'])
 
 # plt.title("Sales over 5 days")
 # plt.xlabel("Unit sold per product")
