@@ -25,9 +25,9 @@ import numpy as np
 # print(newArr)
 # print(newArr.dtype)
 
-# arr = np.array([[1,2], [3,4], [40,30,50]]) # 3 - D
-# print(arr.shape)
-# print(arr.size)
+arr = np.array([[1,2], [3,4], [40,30,50]]) # 3 - D
+print(arr.shape)
+print(arr.size)
 
 print(arr[0,0])
 
