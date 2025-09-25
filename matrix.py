@@ -41,9 +41,9 @@ import numpy as np
 #     [36,30,8]
 # ])
 
-# print("Total sales \n", sales)
-# print("Total per product",sales.sum(axis = 1))
-# print("Average egg per day",sales[::,2].mean())
+print("Total sales \n", sales)
+print("Total per product",sales.sum(axis = 1))
+print("Average egg per day",sales[::,2].mean())
 
 days = [1,2,3,4,5]
 sales = [50,60,55,70,65]
