@@ -48,11 +48,11 @@ import numpy as np
 # days = [1,2,3,4,5]
 # sales = [50,60,55,70,65]
 
-# plt.plot(days,sales,marker='o')
-# plt.title("Sales over 5 days")
-# plt.xlabel("Day")
-# plt.ylabel("Unit Sold")
-# plt.show()
+plt.plot(days,sales,marker='o')
+plt.title("Sales over 5 days")
+plt.xlabel("Day")
+plt.ylabel("Unit Sold")
+plt.show()
  
 
 
