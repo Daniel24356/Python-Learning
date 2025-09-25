@@ -9,8 +9,8 @@ plt.xlabel("Day")
 plt.ylabel("Unit Sold")
 plt.show()
 
-products = ["Bread","Milk","Eggs"]
-unit_sold = [300,220,180]
+# products = ["Bread","Milk","Eggs"]
+# unit_sold = [300,220,180]
 
 # plt.bar(products, unit_sold, color=['blue','green','orange'])
 
