@@ -23,8 +23,8 @@ from manager import Manager
 m = Manager("Mike", 30000, "HR")
 d = Developer("Daniel", 50000, "Python")
 
-m.show_details()
-print("Manager Bonus",m.calculate_bonus())
+# m.show_details()
+# print("Manager Bonus",m.calculate_bonus())
 
 # d.show_details()
 # print("Developers Bonus", d.calculate_bonus())
