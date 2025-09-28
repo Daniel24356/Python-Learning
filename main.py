@@ -26,8 +26,8 @@ d = Developer("Daniel", 50000, "Python")
 m.show_details()
 print("Manager Bonus",m.calculate_bonus())
 
-d.show_details()
-print("Developers Bonus", d.calculate_bonus())
+# d.show_details()
+# print("Developers Bonus", d.calculate_bonus())
 
 # acc = BankAccount('Daniel', 5000)
 # acc.deposit(2000)
