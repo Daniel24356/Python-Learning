@@ -17,8 +17,8 @@
 
 from bankAccount import BankAccount
 from calculator import Calculator
-from developer import Developer
-from manager import Manager
+# from developer import Developer
+# from manager import Manager
 
 # m = Manager("Mike", 30000, "HR")
 # d = Developer("Daniel", 50000, "Python")
