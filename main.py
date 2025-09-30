@@ -38,3 +38,6 @@ calc = Calculator()
 print(calc.add(2,3))
 print(calc.add(2,3,6,8))
 print(calc.add(2,3,1,4,6,7,8))
+
+
+
