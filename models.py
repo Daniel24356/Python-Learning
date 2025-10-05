@@ -12,7 +12,7 @@ class Account:
     def __init__(self, id, username, password):
         self.id = id
         self.username = username
-        self.password = password  # Note: In real apps, hash passwords
+        self.password = password  
         self.role = None  
 
 class Admin(Account):
