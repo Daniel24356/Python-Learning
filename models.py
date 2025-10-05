@@ -13,7 +13,7 @@ class Account:
         self.id = id
         self.username = username
         self.password = password  # Note: In real apps, hash passwords
-        self.role = None  # To be set in subclasses
+        self.role = None  
 
 class Admin(Account):
     def __init__(self, id, username, password):
