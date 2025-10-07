@@ -1,6 +1,7 @@
 from enum import Enum
 import json
 
+
 from storage import load_data, save_data
 
 class OrderStatus(Enum):
